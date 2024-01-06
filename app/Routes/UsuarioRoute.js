@@ -5,7 +5,7 @@ const middlware = require('../Middlewares/tokenApiMiddleware')
 
 const router = express.Router()
 
-router.use(middlware.authToken)
+//router.use(middlware.authToken)
 
 router.get('/usuarios', UsuarioController.getUsuarios)
 router.get('/usuarios/:id', UsuarioController.getUsuarioId)

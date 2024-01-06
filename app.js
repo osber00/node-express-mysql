@@ -19,7 +19,9 @@ sequelize.authenticate().then(()=>{
 })
 
 
-const port = 3001
+/* const port = 3001
 app.listen(port,()=>{
     console.log('Server funcionando en http://localhost:',port)
-})
+}) */
+
+module.exports = app
